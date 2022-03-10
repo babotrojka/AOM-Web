@@ -1,0 +1,32 @@
+#carouselSkolica .carousel-item img {
+    object-fit: cover;
+    object-position: center;
+    height: 35vh;
+    overflow: hidden;
+}
+
+.news-body > a {
+    color: black;
+    font-weight: bold;
+}
+
+@media (max-width: 800px) {
+    #carouselSkolica .carousel-item img {
+        object-fit: cover;
+        object-position: center;
+        height: 20vh;
+        overflow: hidden;
+    }
+}
+
+.table-danger {
+    --bs-table-bg: #AB0000;
+    --bs-table-striped-bg: #AB0000;
+    --bs-table-striped-color: #fff;
+    --bs-table-active-bg: #AB0000;
+    --bs-table-active-color: #fff;
+    --bs-table-hover-bg: #AB0000;
+    --bs-table-hover-color: #fff;
+    color: #fff;
+    border-color: #AB0000;
+}
